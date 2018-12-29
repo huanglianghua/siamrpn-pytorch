@@ -10,9 +10,9 @@ A clean PyTorch implementation of SiamRPN tracker described in paper [High Perfo
 |:------- |:-----:|:-----------------:|:-----------------:|
 | GOT-10k | 0.462 | 0.556             | 0.218             |
 
-The scores surpass the highest performance on [GOT-10k leaderboard](http://47.94.140.97/leaderboard) (AO 0.374, SR<sub>0.50</sub> 0.404) by a large margin.
+The scores surpass the highest performance on [GOT-10k leaderboard](http://got-10k.aitestunion.com/leaderboard) (AO 0.374, SR<sub>0.50</sub> 0.404) by a large margin.
 
-However, since SiamRPN is trained on 4 extra datasets and it does not follow the **one-shot principle** of GOT-10k, the comparison may not be fair.
+However, since SiamRPN is trained on 4 extra datasets (ILSVRC-VID, YouTube-BB, ImageNet Detection and COCO) and it does not follow the **one-shot principle** (zero-overlap between training and test object classes) of GOT-10k, the comparison may not be fair.
 
 ### OTB / UAV123 / DTB70 / TColor128 / NfS
 
